@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/nike_store/static/css/main.20241669.chunk.css",
+    "main.js": "/nike_store/static/js/main.12a97de1.chunk.js",
+    "main.js.map": "/nike_store/static/js/main.12a97de1.chunk.js.map",
+    "runtime-main.js": "/nike_store/static/js/runtime-main.00952012.js",
+    "runtime-main.js.map": "/nike_store/static/js/runtime-main.00952012.js.map",
+    "static/js/2.c27d4a36.chunk.js": "/nike_store/static/js/2.c27d4a36.chunk.js",
+    "static/js/2.c27d4a36.chunk.js.map": "/nike_store/static/js/2.c27d4a36.chunk.js.map",
+    "static/js/3.5fc38d6f.chunk.js": "/nike_store/static/js/3.5fc38d6f.chunk.js",
+    "static/js/3.5fc38d6f.chunk.js.map": "/nike_store/static/js/3.5fc38d6f.chunk.js.map",
+    "index.html": "/nike_store/index.html",
+    "static/css/main.20241669.chunk.css.map": "/nike_store/static/css/main.20241669.chunk.css.map",
+    "static/js/2.c27d4a36.chunk.js.LICENSE.txt": "/nike_store/static/js/2.c27d4a36.chunk.js.LICENSE.txt",
+    "static/media/Jordan_Delta.445bb826.svg": "/nike_store/static/media/Jordan_Delta.445bb826.svg",
+    "static/media/KD13_EP.64c5a793.svg": "/nike_store/static/media/KD13_EP.64c5a793.svg",
+    "static/media/KD_Trey_5_VII_EP.21561e65.svg": "/nike_store/static/media/KD_Trey_5_VII_EP.21561e65.svg",
+    "static/media/Kyrie_7_EP.125ed9e1.svg": "/nike_store/static/media/Kyrie_7_EP.125ed9e1.svg",
+    "static/media/Nike_Air_Edge_270.4730c2fc.png": "/nike_store/static/media/Nike_Air_Edge_270.4730c2fc.png",
+    "static/media/Nike_Air_Force_1.51d67dcc.svg": "/nike_store/static/media/Nike_Air_Force_1.51d67dcc.svg",
+    "static/media/Nike_Air_Zoom_BB_NXT.97db1fa9.svg": "/nike_store/static/media/Nike_Air_Zoom_BB_NXT.97db1fa9.svg",
+    "static/media/Zoom_Freak_2.5e2f5cae.svg": "/nike_store/static/media/Zoom_Freak_2.5e2f5cae.svg",
+    "static/media/chevron_down.17bc6d13.svg": "/nike_store/static/media/chevron_down.17bc6d13.svg",
+    "static/media/close.e7fba469.svg": "/nike_store/static/media/close.e7fba469.svg",
+    "static/media/free-delivery.9aa7ca8c.svg": "/nike_store/static/media/free-delivery.9aa7ca8c.svg",
+    "static/media/logo.17062077.svg": "/nike_store/static/media/logo.17062077.svg",
+    "static/media/menu.6c5b261f.svg": "/nike_store/static/media/menu.6c5b261f.svg",
+    "static/media/play-icon.08856acb.svg": "/nike_store/static/media/play-icon.08856acb.svg",
+    "static/media/shopping-bag.c0931e93.svg": "/nike_store/static/media/shopping-bag.c0931e93.svg",
+    "static/media/small_long_right.41c6850e.svg": "/nike_store/static/media/small_long_right.41c6850e.svg",
+    "static/media/user.0e15fe32.svg": "/nike_store/static/media/user.0e15fe32.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00952012.js",
+    "static/js/2.c27d4a36.chunk.js",
+    "static/css/main.20241669.chunk.css",
+    "static/js/main.12a97de1.chunk.js"
+  ]
+}
