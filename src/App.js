@@ -23,12 +23,13 @@ const App = () => {
       <ScrollToTop />
       <Header />
       <Switch>
-        <Route path="/nike_store" exact component={ProductList} />
         <Route
-          path="/nike_store/product-detail/:itemID"
-          component={ProductDetail}
+          path={process.env.PUBLIC_URL + "/"}
+          exact
+          component={ProductList}
         />
-        <Route path="/nike_store/your-bag" component={YourBag} />
+        <Route path="/product-detail/:itemID" component={ProductDetail} />
+        <Route path="/your-bag" component={YourBag} />
       </Switch>
       <Footer />
     </Router>
