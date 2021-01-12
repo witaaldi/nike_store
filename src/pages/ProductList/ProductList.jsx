@@ -23,7 +23,7 @@ const ProductList = () => {
   }, []);
 
   const handleDetail = (id) => {
-    history.push(`/product-detail/${id}`);
+    history.push(`${process.env.PUBLIC_URL}/product-detail/${id}`);
   };
 
   if (isLoaded) {

@@ -88,7 +88,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to={process.env.PUBLIC_URL + "/"}
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -97,7 +97,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to={process.env.PUBLIC_URL + "/"}
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -106,7 +106,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to={process.env.PUBLIC_URL + "/"}
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -115,7 +115,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to={process.env.PUBLIC_URL + "/"}
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -125,7 +125,7 @@ const Header = () => {
             </ul>
             <ul className="menu-right">
               <li>
-                <Link to="/your-bag">
+                <Link to={process.env.PUBLIC_URL + "/your-bag"}>
                   <img src={bag} alt="Your Bag" />
                   <div className="bag-count">{numberCart}</div>
                 </Link>
