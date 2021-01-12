@@ -1,0 +1,19 @@
+.size-type {
+  width: 4.8rem;
+  height: 4.8rem;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.size-type.unselected {
+  border: 1px solid rgb(19, 18, 18, 0.1);
+  color: initial;
+  background-color: initial;
+}

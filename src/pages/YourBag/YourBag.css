@@ -1,0 +1,164 @@
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.title-with-icon h1 {
+  margin-bottom: 0;
+  margin-right: 2.6rem;
+}
+
+.bag-on-title {
+  position: relative;
+  z-index: -1;
+}
+
+.bag-on-title img {
+  width: 3.7rem;
+}
+
+.bag-on-title .bag-count {
+  top: -5px;
+  right: -10px;
+}
+
+.table-head {
+  display: grid;
+  grid-template-columns: var(--two-column-table-template);
+  grid-gap: var(--column-table-gap);
+  background-color: #fafafa;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0, 0.6);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.table-body {
+  display: grid;
+  grid-template-columns: var(--two-column-table-template);
+  grid-gap: var(--column-table-gap);
+}
+
+.table-body .column-2 {
+  display: grid;
+  grid-template-columns: var(--two-column-table-template);
+  grid-gap: var(--column-table-gap);
+  align-items: center;
+}
+
+.column-10 {
+  display: grid;
+  grid-template-columns: var(--four-column-table-template);
+  grid-gap: var(--column-table-gap);
+  padding: 1.5rem;
+}
+
+.table-body .column-10 {
+  align-items: center;
+}
+
+.remove-btn {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+  background-color: #ff0000;
+}
+
+.item-name {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+}
+
+.item-detail {
+  font-size: 1.6rem;
+  color: rgb(0, 0, 0, 0.8);
+  display: flex;
+}
+
+.item-detail .color {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+}
+
+.item-price,
+.item-qty,
+.item-sub-total {
+  font-size: 1.8rem;
+  color: var(--secondary-font-color);
+}
+
+.item-qty {
+  background-color: #fafafa;
+  width: 6.6rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.item-sub-total {
+  font-weight: 500;
+}
+
+.table-foot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot-container {
+  width: 40rem;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 1.5rem 2rem;
+}
+
+p.bold {
+  font-weight: 500;
+}
+
+.pay-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+}
+
+.pay-btn p {
+  font-weight: 700;
+}
+
+.on-mobile-only {
+  display: none;
+}
+
+.find-btn {
+  width: 30rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
