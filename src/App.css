@@ -240,6 +240,10 @@ h1 {
   .on-mobile-only {
     display: initial;
   }
+
+  .find-btn {
+    width: 100%;
+  }
 }
 
 @keyframes grow {
