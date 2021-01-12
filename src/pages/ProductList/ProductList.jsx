@@ -23,7 +23,7 @@ const ProductList = () => {
   }, []);
 
   const handleDetail = (id) => {
-    history.push(`/product-detail/${id}`);
+    history.push(`nike_store/product-detail/${id}`);
   };
 
   if (isLoaded) {

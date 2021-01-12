@@ -70,7 +70,7 @@ const Header = () => {
               <i className="fas fa-bars"></i>
               <i className="fas fa-times"></i>
             </div>
-            <Link href="/" className="logo">
+            <Link to="/nike_store" className="logo">
               <img src={logo} alt="Nike Store" />
             </Link>
             <ul className="nav-list">
@@ -79,7 +79,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/"
+                  to="/nike_store"
                   className="nav-link active"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -125,7 +125,7 @@ const Header = () => {
             </ul>
             <ul className="menu-right">
               <li>
-                <Link to="/your-bag">
+                <Link to="nike_store/your-bag">
                   <img src={bag} alt="Your Bag" />
                   <div className="bag-count">{numberCart}</div>
                 </Link>
