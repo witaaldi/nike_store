@@ -210,4 +210,9 @@
   .video-container {
     width: 100vw;
   }
+
+  .color-selector,
+  .size-selector {
+    grid-template-columns: repeat(4, 4.8rem);
+  }
 }
