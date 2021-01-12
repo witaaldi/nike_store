@@ -23,7 +23,7 @@ const App = () => {
       <ScrollToTop />
       <Header />
       <Switch>
-        <Route path="/nike_store" exact component={ProductList} />
+        <Route path="/" exact component={ProductList} />
         <Route path="/product-detail/:itemID" component={ProductDetail} />
         <Route path="/your-bag" component={YourBag} />
       </Switch>
