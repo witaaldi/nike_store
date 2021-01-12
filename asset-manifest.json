@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nike_store/static/css/main.06422b0f.chunk.css",
-    "main.js": "/nike_store/static/js/main.3759610d.chunk.js",
-    "main.js.map": "/nike_store/static/js/main.3759610d.chunk.js.map",
+    "main.js": "/nike_store/static/js/main.61ec6fe1.chunk.js",
+    "main.js.map": "/nike_store/static/js/main.61ec6fe1.chunk.js.map",
     "runtime-main.js": "/nike_store/static/js/runtime-main.00952012.js",
     "runtime-main.js.map": "/nike_store/static/js/runtime-main.00952012.js.map",
-    "static/js/2.01d40855.chunk.js": "/nike_store/static/js/2.01d40855.chunk.js",
-    "static/js/2.01d40855.chunk.js.map": "/nike_store/static/js/2.01d40855.chunk.js.map",
+    "static/js/2.c27d4a36.chunk.js": "/nike_store/static/js/2.c27d4a36.chunk.js",
+    "static/js/2.c27d4a36.chunk.js.map": "/nike_store/static/js/2.c27d4a36.chunk.js.map",
     "static/js/3.5fc38d6f.chunk.js": "/nike_store/static/js/3.5fc38d6f.chunk.js",
     "static/js/3.5fc38d6f.chunk.js.map": "/nike_store/static/js/3.5fc38d6f.chunk.js.map",
     "index.html": "/nike_store/index.html",
     "static/css/main.06422b0f.chunk.css.map": "/nike_store/static/css/main.06422b0f.chunk.css.map",
-    "static/js/2.01d40855.chunk.js.LICENSE.txt": "/nike_store/static/js/2.01d40855.chunk.js.LICENSE.txt",
+    "static/js/2.c27d4a36.chunk.js.LICENSE.txt": "/nike_store/static/js/2.c27d4a36.chunk.js.LICENSE.txt",
     "static/media/Jordan_Delta.445bb826.svg": "/nike_store/static/media/Jordan_Delta.445bb826.svg",
     "static/media/KD13_EP.64c5a793.svg": "/nike_store/static/media/KD13_EP.64c5a793.svg",
     "static/media/KD_Trey_5_VII_EP.21561e65.svg": "/nike_store/static/media/KD_Trey_5_VII_EP.21561e65.svg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.00952012.js",
-    "static/js/2.01d40855.chunk.js",
+    "static/js/2.c27d4a36.chunk.js",
     "static/css/main.06422b0f.chunk.css",
-    "static/js/main.3759610d.chunk.js"
+    "static/js/main.61ec6fe1.chunk.js"
   ]
 }
