@@ -70,9 +70,7 @@ const Header = () => {
               <i className="fas fa-bars"></i>
               <i className="fas fa-times"></i>
             </div>
-            <Link href={process.env.PUBLIC_URL + "/"}>
-              {" "}
-              className="logo">
+            <Link to={process.env.PUBLIC_URL + "/"} className="logo">
               <img src={logo} alt="Nike Store" />
             </Link>
             <ul className="nav-list">
@@ -80,15 +78,17 @@ const Header = () => {
                 <img src={user} alt="Your Profile" />
               </li>
               <li className="nav-item">
-                <Link to={process.env.PUBLIC_URL + "/"}>
-                  className="nav-link active" onClick=
-                  {() => (navState ? setNavState(!navState) : null)}> New
-                  Releases
+                <Link
+                  to={process.env.PUBLIC_URL + "/"}
+                  className="nav-link active"
+                  onClick={() => (navState ? setNavState(!navState) : null)}
+                >
+                  New Releases
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to={process.env.PUBLIC_URL + "/"}
+                  to="/#"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -97,7 +97,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to={process.env.PUBLIC_URL + "/"}
+                  to="/#"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -106,7 +106,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to={process.env.PUBLIC_URL + "/"}
+                  to="/#"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -115,7 +115,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to={process.env.PUBLIC_URL + "/"}
+                  to="/#"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
