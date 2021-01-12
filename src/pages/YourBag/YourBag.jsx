@@ -103,7 +103,7 @@ const YourBag = () => {
           })
         ) : (
           <div className="find-btn">
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <Link to="/nike_store">
               <div className="pay-btn">
                 <p>add product to cart</p>
                 <img src={arrow} alt="Add to Bag" />

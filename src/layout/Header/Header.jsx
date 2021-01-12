@@ -70,16 +70,18 @@ const Header = () => {
               <i className="fas fa-bars"></i>
               <i className="fas fa-times"></i>
             </div>
-            <Link to={process.env.PUBLIC_URL + "/"} className="logo">
-              <img src={logo} alt="Nike Store" />
-            </Link>
+            <div>
+              <Link to="/nike_store" className="logo">
+                <img src={logo} alt="Nike Store" />
+              </Link>
+            </div>
             <ul className="nav-list">
               <li className="userOnMobile">
                 <img src={user} alt="Your Profile" />
               </li>
               <li className="nav-item">
                 <Link
-                  to={process.env.PUBLIC_URL + "/"}
+                  to="/nike_store"
                   className="nav-link active"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -88,7 +90,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to="/nike_store"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -97,7 +99,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to="/nike_store"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -106,7 +108,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to="/nike_store"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -115,7 +117,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/#"
+                  to="/nike_store"
                   className="nav-link"
                   onClick={() => (navState ? setNavState(!navState) : null)}
                 >
@@ -125,7 +127,7 @@ const Header = () => {
             </ul>
             <ul className="menu-right">
               <li>
-                <Link to={process.env.PUBLIC_URL + "/your-bag"}>
+                <Link to="/your-bag">
                   <img src={bag} alt="Your Bag" />
                   <div className="bag-count">{numberCart}</div>
                 </Link>
