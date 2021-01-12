@@ -19,7 +19,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router basename="https://witaaldi.github.io/nike_store/">
+    <Router basename="/nike_store">
       <ScrollToTop />
       <Header />
       <Switch>
