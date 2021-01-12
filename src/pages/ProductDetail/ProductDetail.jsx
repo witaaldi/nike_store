@@ -171,7 +171,7 @@ const ProductDetail = () => {
       );
     }
   } else {
-    history.push(`/product-detail/${id}`);
+    history.push("/");
   }
 };
 
