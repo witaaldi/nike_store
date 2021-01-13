@@ -19,7 +19,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router basename="/nike_store">
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Header />
       <Switch>
