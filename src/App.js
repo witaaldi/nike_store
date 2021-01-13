@@ -1,6 +1,11 @@
 //libraries
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  HashRouter,
+} from "react-router-dom";
 
 //layout
 import Header from "./layout/Header/Header";
@@ -19,7 +24,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Header />
       <Switch>
@@ -28,7 +33,7 @@ const App = () => {
         <Route path="/your-bag" component={YourBag} />
       </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 };
 
